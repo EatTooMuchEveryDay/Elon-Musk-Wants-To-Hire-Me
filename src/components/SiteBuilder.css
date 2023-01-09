@@ -1,0 +1,198 @@
+.builder-container {
+  height: 100vh;
+  min-height: 1000px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.device-tab {
+  width: 100%;
+  max-width: 1000px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: flex-start;
+
+  overflow: hidden;
+}
+
+.device-tab-button {
+  width: 135px;
+  height: 40px;
+  margin: 30px 5px;
+  padding: 0;
+
+  color: rgba(0, 0, 0, 0.8);
+  background-color: transparent;
+  border: none;
+  border-top: 2px solid rgba(0, 0, 0, 0.8);
+  white-space: nowrap;
+  font-size: 14px;
+  cursor: pointer;
+
+  transition: all 0.33s ease;
+}
+
+.device-tab-button.inactive {
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.45);
+  border-top: 1.8px solid rgba(0, 0, 0, 0.35);
+}
+
+.device-tab-button.selected {
+  margin-top: 35px;
+  margin-bottom: 25px;
+
+  color: rgba(0, 0, 0, 1);
+  border-top: 3px solid rgba(0, 0, 0, 1);
+}
+
+.device-config-title {
+  margin-top: 30px;
+  margin-bottom: 10px;
+
+  text-align: center;
+  font-size: 26px;
+}
+
+.device-config-description {
+  font-size: 14px;
+  line-height: 26px;
+  max-height: 160px;
+
+  overflow: scroll;
+
+  color: rgb(57, 60, 55);
+}
+
+.product-metric-group {
+  margin-bottom: 20px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.product-metric-item {
+  text-align: center;
+}
+
+.product-metric-item h2 {
+  margin-bottom: 0;
+
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.product-metric-item span {
+  font-size: 12px;
+  color: rgb(92, 94, 98);
+}
+
+.device-config-row {
+  height: 40px;
+  margin: 16px 0;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+  flex-grow: 1;
+}
+
+.device-config-text {
+  margin: 0;
+
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.device-config-caption {
+  width: fit-content;
+  margin: 0;
+
+  font-size: 12px;
+  color: rgb(92, 94, 98);
+}
+
+.device-config-subtitle {
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.device-config-contact-form {
+  height: 160px;
+  margin-bottom: 20px;
+
+  flex-grow: 1;
+}
+
+.device-config-contact-text {
+  margin: 0;
+  padding: 0;
+
+  color: rgb(92, 94, 98);
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.device-config-contact-input {
+  height: 40px;
+  width: 100%;
+  margin-top: 8px;
+  margin-bottom: 16px;
+  padding: 0 12px;
+  box-sizing: border-box;
+
+  outline: none;
+  border: 1px solid rgb(244, 244, 244);
+  border-radius: 4px;
+
+  font-size: 14px;
+  font-weight: 400;
+  color: rgb(57, 60, 65);
+  background-color: rgb(244, 244, 244);
+
+  transition: border 0.33s ease;
+}
+
+.device-config-contact-input:focus {
+  border: 1px solid #d0d1d1;
+}
+
+.submit-button {
+  width: 100%;
+  height: 40px;
+  margin-bottom: 40px;
+  padding: 4px 24px;
+
+  color: #171a20;
+  background-color: transparent;
+  outline: none;
+  border: 3px solid rgb(23, 26, 32);
+  border-radius: 4px;
+  cursor: pointer;
+
+  font-weight: bold;
+  font-size: 14px;
+
+  transition: background-color 0.33s ease, color 0.33s ease,
+    box-shadow 0.33s ease;
+}
+
+.submit-button:hover {
+  color: white;
+  background-color: #171a20;
+}
+
+.submit-button:focus {
+  color: white;
+  background-color: #171a20;
+  box-shadow: inset 0 0 0 2px;
+}

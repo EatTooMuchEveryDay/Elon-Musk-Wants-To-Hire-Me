@@ -1,0 +1,57 @@
+[
+  {
+    "name": "Megapack XL",
+    "short": "Megapack XL",
+    "filename": "megapack_xl",
+    "length": 40,
+    "width": 10,
+    "energy": 4,
+    "cost": 120000,
+    "year": 2022,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ullamcorper erat mi, vel accumsan nisi ultrices sit amet. Proin ornare diam dolor, at congue risus posuere quis."
+  },
+  {
+    "name": "Megapack 2",
+    "short": "Megapack 2",
+    "filename": "megapack_2",
+    "length": 30,
+    "width": 10,
+    "energy": 3,
+    "cost": 80000,
+    "year": 2021,
+    "description": "Duis porttitor lobortis tortor in posuere. Integer porttitor rutrum libero at fringilla. Aliquam eu diam a orci tincidunt malesuada. Mauris justo eros, tincidunt eu tempor eget, condimentum quis libero."
+  },
+  {
+    "name": "Megapack",
+    "short": "Megapack",
+    "filename": "megapack",
+    "length": 30,
+    "width": 10,
+    "energy": 2,
+    "cost": 50000,
+    "year": 2005,
+    "description": "Megapack enables low-cost, high-density commercial and utility projects at large scale. It ships ready to install with fully integrated battery modules, inverters, and thermal systems."
+  },
+  {
+    "name": "PowerPack",
+    "short": "PP",
+    "filename": "powerpack",
+    "length": 10,
+    "width": 10,
+    "energy": 1,
+    "cost": 10000,
+    "year": 2000,
+    "description": "Fusce consectetur sed ligula id mattis. Nunc ullamcorper rhoncus ligula, et consequat mi scelerisque vitae. Pellentesque tincidunt nisi varius odio commodo elementum."
+  },
+  {
+    "name": "Transformer",
+    "short": "T",
+    "filename": "transformer",
+    "length": 10,
+    "width": 10,
+    "energy": -0.5,
+    "cost": 10000,
+    "year": null,
+    "description": "Nam sit amet maximus ligula. Donec fermentum consequat semper. Cras ipsum leo, sollicitudin in tempus eget, sodales ut tortor. Mauris sed nunc dictum, feugiat ante a, faucibus purus."
+  }
+]

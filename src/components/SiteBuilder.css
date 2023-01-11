@@ -64,7 +64,8 @@
   line-height: 26px;
   max-height: 160px;
 
-  overflow: scroll;
+  overflow-x: hidden;
+  overflow-y: auto;
 
   color: rgb(57, 60, 55);
 }

@@ -21,7 +21,7 @@ const spawnDeviceGrid = (numbers) => {
   let t = [];
   for (let idx in numbers) {
     if (numbers[idx] !== 0) {
-      t.push({ type: idx, num: numbers[idx] });
+      t.push({ type: Number(idx), num: numbers[idx] });
     }
   }
 

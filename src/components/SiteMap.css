@@ -71,13 +71,14 @@
 .site-map-rows-container {
   padding: 0px 100px;
   height: 100%;
-  overflow: scroll;
+  overflow-y: auto;
+  overflow-x: hidden;
 }
 
 .site-map-row {
   width: 100%;
-  height: calc((100vw - 560px) / 10);
-  margin: calc((100vw - 560px) / 10) 0;
+  height: calc((100vw - 600px) / 10);
+  margin: calc((100vw - 600px) / 10) 0;
 
   display: flex;
   flex-direction: row;
@@ -86,7 +87,7 @@
 }
 
 .site-map-device {
-  margin-right: calc((100vw - 560px) / 10);
+  margin-right: calc((100vw - 600px) / 10);
   padding: 0;
 
   border: none;

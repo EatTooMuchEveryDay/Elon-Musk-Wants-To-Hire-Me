@@ -50,17 +50,20 @@ const SiteBuilder = () => {
         newDeviceNumbers[4]) /
         2
     );
-    newDeviceNumbers[4] = Math.max(transformerNeeded, newDeviceNumbers[4]);
+    const transformerAtMost = Math.round(-sumEnergy(newDeviceNumbers) / DeviceInfo[4].energy + newDeviceNumbers[4]);
 
     if (type === 4 && number < transformerNeeded) {
       alert("For every 2 industrial batteries bought 1 transformer is needed.");
       return;
     }
 
-    if(sumEnergy(newDeviceNumbers)<0){
+    if(type === 4 && sumEnergy(newDeviceNumbers)<0){
       alert("Add more batteries to provide enough energy for transformers.");
       return;
     }
+
+    newDeviceNumbers[4] = Math.max(transformerNeeded, newDeviceNumbers[4]);
+    newDeviceNumbers[4] = Math.min(transformerAtMost, newDeviceNumbers[4]);
 
     setDeviceNumbers(newDeviceNumbers);
 
